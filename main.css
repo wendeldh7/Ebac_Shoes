@@ -15,9 +15,8 @@ html {
     margin: 0 auto;
 }
 
-header,
-footer {
-    background-color: #192a56;
+header {
+    background-color: #42429b;
     padding-top: 16px;
     color: #fff;
 }
@@ -29,15 +28,14 @@ header {
     z-index: 1;
 }
 
-header > .container,
-footer > .container {
+header > .container {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px;
 }
 
 nav {
-    background-color: #575fcf;
+    background-color: #192a56;
     padding: 16px 0;
     display: none;
 }
@@ -86,21 +84,22 @@ section h2 {
     margin-bottom: 16px;
 }
 
-.lista-veiculos {
+.lista-tenis {
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.lista-veiculos li {
+.lista-tenis li {
     list-style: none;
     max-width: 30%;
     margin-bottom: 24px;
 }
 
-.lista-veiculos li img {
+.lista-tenis li img {
     max-width: 100%;
 }
 
-.lista-veiculos li h3 {
+.lista-tenis li h3 {
     margin: 16px 0;
 }
 
@@ -113,7 +112,7 @@ button {
     width: 100%;
     padding: 8px 0;
     border: none;
-    background-color: #119759;
+    background-color: #42429b;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -132,40 +131,44 @@ button {
     font-size: 14px;
 }
 
-.form-campo {
-    margin-bottom: 16px;
+.container h2, h3 {
+    color: #42429b
+    
 }
 
-.form-campo label {
-    font-weight: bold;
-    display: block;
-}
 
-.form-campo input, 
-.form-campo textarea {
-    width: 100%;
-    display: block;
-    padding: 8px;
-}
+    @media screen and (max-width: 767px) {
 
-.form-campo textarea {
-    resize: none;
-    height: 120px;
-}
+    header {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 
-form {
-    max-width: 360px;
-}
+    #sobre-a-loja img {
+        margin-left: 8px;
+        width: 300px;
+    }
+    
+    .container{
+        display: block;
+    }
 
-form button {
-    max-width: 120px;
-}
+    section h2 {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
 
-footer li {
-    list-style: none;
-    margin-left: 16px;
-}
+    section p {
+        margin-left: 5px;
+        margin-right: 65px;
+    }
+    p {
+        padding: 3px;
+    }
 
-footer li img {
-    height: 32px;
+    .lista-tenis {
+        display: block;
+        width: 1000px;
+        margin-left: 8px;
+    }
 }

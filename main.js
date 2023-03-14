@@ -42,11 +42,11 @@ $(document).ready(function() {
         }
     })
 
-    $('.lista-veiculos button').click(function() {
+    $('.lista-tenis button').click(function() {
         const destino = $('#contato');
         const nomeVeiculo = $(this).parent().find('h3').text();
 
-        $('#veiculo-interesse').val(nomeVeiculo);
+        $('#tenis-interesse').val(nomeVeiculo);
 
         $('html').animate({
             scrollTop: destino.offset().top
