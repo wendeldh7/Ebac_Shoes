@@ -140,13 +140,13 @@ button {
     @media screen and (max-width: 767px) {
 
     header {
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     #sobre-a-loja img {
-        margin-left: 8px;
-        width: 300px;
+        margin-left: 16px;
+        width: 120%;
     }
     
     .container{
@@ -154,13 +154,13 @@ button {
     }
 
     section h2 {
-        margin-top: 5px;
-        margin-left: 5px;
+        margin-top: 16px;
+        margin-left: 16px;
     }
 
     section p {
-        margin-left: 5px;
-        margin-right: 65px;
+        margin-left: 16x;
+        margin-right: 16px;
     }
     p {
         padding: 3px;
@@ -169,6 +169,6 @@ button {
     .lista-tenis {
         display: block;
         width: 1000px;
-        margin-left: 8px;
+        margin-left: 80px;
     }
 }
